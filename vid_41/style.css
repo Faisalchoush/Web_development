@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+nav{
+    display: flex;
+    padding: 20px;
+}
+
+.logo{
+    width: 259px;
+    height: 83px;
+    object-fit: cover;
+}
+
+.boxes{
+    display: flex;
+    padding: 20px;
+    /* margin-left: 70px; */
+    padding-left: 240px;
+}
+
+.box{
+    display: flex;
+    padding: 10px;
+}
+
+.box:hover{
+    color: rgb(49, 49, 186);
+}
+
+.icon{
+    display: flex;
+}
+
+.search{
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+
+.search:hover{
+    background-color: lightblue;
+}
+
+.globe{
+    width: 38px;
+    height: 38px;
+    border-radius: 25px;
+}
+
+.globe:hover{
+    background-color: lightblue;
+}
+
+.content{
+    display: flex;
+    width: 100vw;
+    height: 70px;
+    justify-content: center;
+}
+
+.content img{
+    margin-left: 12px;
+    padding-bottom: 4px;
+    align-self: center;
+}
+.content h1{
+    font-size: 3em;
+}
+
+main{
+    height: 60%;
+    width: 100%;
+}
+   
+.button {
+    width: 255px;
+    border-radius: 7px;
+    height: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    background-color:  #00b6d1;
+}
+
+.button:hover{ 
+    background-color:  #2b727c;
+}
+
+.para{
+    font-size:34px;
+    font-weight:lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 60%;
+    margin: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.parent{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last a{
+    text-decoration: none;
+    color: black;
+}
